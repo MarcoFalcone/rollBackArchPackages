@@ -1,6 +1,6 @@
 # rollBackArchPackages
-roll back to previous version of packages in case of a feature break after update by changing 
-we're going to do this by changing the date of the arch archive the our system is using and do a system update(downgrade)
+roll back to previous version of packages in case of a feature break after update.
+We are going to do this by changing the date of the arch archive the our system is using and do a system update(downgrade).
 
 ### create a back up file of mirror list
 $ sudo cp /etc/pacman.d/mirrorlist{,.bak}
